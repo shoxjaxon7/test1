@@ -1,0 +1,110 @@
+.main {
+    flex-grow: 1;
+    margin: 0px;
+    &__container {
+        max-width: 1440px;
+        min-height: 650px;
+        background-image: url("../image/main-top-min.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 0px;
+        padding: 153px 1px;
+    }
+    .main-content__head {
+        max-width: 500px;
+        margin-left: 165px;
+        font-family: Space Mono;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+    }
+    .main-content__desc {
+        max-width: 405px;
+        margin-top: 40px;
+        margin-left: 260px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+}
+
+.box {
+    background-image: url("../../image/box.svg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 1154px 145px;
+}
+
+.box__button {
+    width: 100%;
+    max-width: 180px;
+    margin-left: 260px;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        margin: 0px;
+        &__container {
+            width: 100%;
+            max-width: 768px;
+            margin: 0px;
+            background-image: url("../../image/tablet-back.png");
+            background-size: 768px 650px;
+            padding-right: 97px;
+        }
+        .main-content__head {
+            max-width: 573px;
+            text-align: center;
+            font-size: 56px;
+            line-height: 56px;
+        }
+        .main-content__desc {
+            max-width: 573px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+    .box {
+        background-image: none;
+        width: 100%;
+        max-width: 573px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .main {
+        margin: 0px;
+        &__container {
+            width: 100%;
+            max-width: 573px;
+            margin: 0px;
+            background-image: url("../../image//mobile.png");
+            background-size: 573px 650px;
+            padding-right: 97px;
+        }
+        .main-content__head {
+            max-width: 573px;
+            text-align: center;
+            font-size: 56px;
+            line-height: 56px;
+        }
+        .main-content__desc {
+            max-width: 573px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+    .box {
+        background-image: none;
+        width: 100%;
+        max-width: 573px;
+    }
+}

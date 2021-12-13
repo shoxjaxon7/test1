@@ -1,0 +1,16 @@
+.button {
+    max-width: 183px;
+    background: $accent;
+    // padding: 14px 0px;
+    // padding: left 39px;
+    border: none;
+    &:hover {
+        opacity: 0.4;
+    }
+    &:active {
+        opacity: 0.8;
+    }
+    &__desc {
+        color: #fff;
+    }
+}

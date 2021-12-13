@@ -1,0 +1,52 @@
+.header {
+    padding: 34px 169px;
+    &__container {
+        display: flex;
+        text-align: center;
+    }
+    &__logo {
+        flex-shrink: 0;
+        text-align: center;
+        margin-right: 59px;
+    }
+    &__list {
+        display: flex;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    // &__hamburger {
+    //     display: none;
+    //     background-color: transparent;
+    //     border: none;
+    //     background-image: url("../images/bars-solid.svg");
+    //     background-repeat: no-repeat;
+    //     width: 20px;
+    //     height: 20px;
+    // }
+    .header__item {
+        margin-right: 40px;
+    }
+    &__link {
+        font-family: Space;
+        color: #939CAA;
+    }
+    .header__button {
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+        padding: 34px 39px;
+        margin: 0px;
+        &__logo {
+            margin-right: 50px;
+        }
+        &__button {
+            margin-left: 94px;
+        }
+    }
+}
